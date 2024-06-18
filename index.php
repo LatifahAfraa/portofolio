@@ -74,7 +74,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Latifah Afra</h1>
-      <p>I'm <span class="typed" data-typed-items="Fresh Graduate, Junior Web Developer"></span></p>
+      <p> <span class="typed" data-typed-items="IT Support, Web Developer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -102,18 +102,10 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>06 Maret 2000</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>https://github.com/LatifahAfraa/</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62852-6444-0829</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Padang, Sumatera Barat</span></li>
-
-              </div>
-              <div class="col-lg-6">
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>A.Md.T</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>afralatifah@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>afralatifah@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62895-6230-28500</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang Selatan, Banten</span></li>
               </div>
 
             </div>
@@ -443,7 +435,7 @@
               </div>
 
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.30226155946!2d100.35062701427302!3d-0.9215424355957893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8d3ab0e7293%3A0x36989fea1e3e384c!2sJl.%20Madang%20No.11%2C%20RT.001%2FRW.003%2C%20Lolong%20Belanti%2C%20Kec.%20Padang%20Utara%2C%20Kota%20Padang%2C%20Sumatera%20Barat%2025136!5e0!3m2!1sid!2sid!4v1666698660585!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2044.4763525056871!2d106.6690526685664!3d-6.294355245929552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb260b53f53f%3A0x5bf01e6e8c6517b4!2sPM4C%2BX75%2C%20Jl.%20Aster%2FLengkong%20Bar.%2C%20Lengkong%20Gudang%2C%20Kec.%20Serpong%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015310!5e1!3m2!1sid!2sid!4v1718696906440!5m2!1sid!2sid" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
           </div>
