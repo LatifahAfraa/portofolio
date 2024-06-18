@@ -106,8 +106,8 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62895-6230-28500</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang Selatan, Banten</span></li>
+                </ul>             
               </div>
-
             </div>
             <p>saya memiliki pengalaman magang sebagai Web Developer di CV. Mediatama Web Indonesia, dengan job desk melakukan perbaikan bug atau kodingan, menambahkan fitur pada website, serta membuat website Nagari Supayang. saya dapat menggunakan PHP Native dan Framework Laravel.</p>
             <p>Saya pernah mengikuti Pelatihan Junior Web Developer DTS 2019 dan 2021, dari pelatihan tersebut saya mempunyai sertifikat dari Bnsp dan sertifikat dari Kominfo sebagai Junior Web Developer.</p>
@@ -122,83 +122,36 @@
 
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
+    <section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
           <h2>Skills</h2>
-          
         </div>
 
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="row">
+          <div class="col-lg-12 pt-12 pt-lg-0 content" data-aos="fade-center">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i><strong>Email:</strong></li> 
+                  <a href="https://cdnlogo.com/logo/html-5_8516.html"><img src="https://www.cdnlogo.com/logos/h/90/html-5.svg" style="border:0; width: 100%; height: 20px;"></a>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62895-6230-28500</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang Selatan, Banten</span></li>
+                </ul>
               </div>
             </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Java script <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Microsoft Office <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
+            <p>
+            <p>Saya memiliki pengalaman magang sebagai Web Developer di CV. Mediatama Web Indonesia, dengan job desk melakukan perbaikan bugs pada aplikasi, menambahkan fitur pada website, serta membuat website Nagari Supayang. saya dapat menggunakan PHP Native dan Framework Laravel.</p>
+            <p>Saya pernah mengikuti Pelatihan Junior Web Developer DTS 2019 dan 2021, dari pelatihan tersebut saya mempunyai sertifikat dari Bnsp dan sertifikat dari Kominfo sebagai Junior Web Developer.</p>
+            <p>Saya adalah seorang yang gigih, mau belajar hal baru, dapat bekerja tim, memiliki keingin tahuan yang tinggi, serta menyukai tantangan baru.</p>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP Native<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MYSQL <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-
-            <div class="progress">
-              <span class="skill">Laravel <i class="val">35%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Installasi Komputer <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section>
+    <!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
