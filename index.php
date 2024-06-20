@@ -36,6 +36,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
+  <style>
+    .section {
+      padding: 40px 0 !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -86,8 +93,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>saya Latifah Afra adalah fresh graduate dari Politeknik Negeri Padang, Jurusan Teknologi Informasi Prodi D3 Teknik Komputer, dengan IPK 3.68/4.00 predikat lulus Pujian.</p>
-
+          <p>Saya Latifah Afra adalah lulusan dari Politeknik Negeri Padang, Jurusan Teknologi Informasi Prodi D3 Teknik Komputer, dengan IPK 3.68/4.00</p>
         </div>
 
         <div class="row">
@@ -95,23 +101,21 @@
             <img src="assets/img/latifah.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Web Developer.</h3>
-            <p class="fst-italic">
-              Berikut Biodata Diri Saya
-            </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>afralatifah@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?=date("Y") - date("Y", strtotime("2000-03-06"));?></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62895-6230-28500</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang Selatan, Banten</span></li>
-                </ul>             
+                </ul>
               </div>
             </div>
-            <p>saya memiliki pengalaman magang sebagai Web Developer di CV. Mediatama Web Indonesia, dengan job desk melakukan perbaikan bug atau kodingan, menambahkan fitur pada website, serta membuat website Nagari Supayang. saya dapat menggunakan PHP Native dan Framework Laravel.</p>
-            <p>Saya pernah mengikuti Pelatihan Junior Web Developer DTS 2019 dan 2021, dari pelatihan tersebut saya mempunyai sertifikat dari Bnsp dan sertifikat dari Kominfo sebagai Junior Web Developer.</p>
-            <p>saya adalah seorang yang gigih, mau belajar hal baru, dapat bekerja tim, memiliki keingintahuan yang tinggi, serta menyukai tantangan baru.</p>
+            <p>Memiliki pengalaman sebagai IT Support sajak Juni 2023 - Sekarang, Menjadi layer 1 support melakukan UAT, Melakukan backup & restore database serta database administrator.</p>
+            <p>Memiliki pengalaman sebagai Website Developer Maret 2022 - maret 2023, mengembangkan beberapa aplikasi client</p>
+            <p>Memiliki pengalaman magang sebagai Web Developer, Merancang serta membuat aplikasi, Melakukan perbaikan bugs pada aplikasi , dan menambahkan fitur pada aplikasi</p>
+            <p>Mengikuti Pelatihan Junior Web Developer DTS 2019 dan 2021, dari pelatihan tersebut saya mempunyai sertifikat dari Bnsp dan sertifikat dari Kominfo sebagai Junior Web Developer.</p>
+            <p>Saya adalah seorang yang  jujur, gigih, mau belajar hal baru, dapat bekerja tim, memiliki keingin tahuan yang tinggi, serta menyukai tantangan baru.</p>
           </div>
         </div>
 
@@ -124,31 +128,16 @@
     <!-- ======= Skills Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
           <h2>Skills</h2>
         </div>
-
-        <div class="row">
-          <div class="col-lg-12 pt-12 pt-lg-0 content" data-aos="fade-center">
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i><strong>Email:</strong></li> 
-                  <a href="https://cdnlogo.com/logo/html-5_8516.html"><img src="https://www.cdnlogo.com/logos/h/90/html-5.svg" style="border:0; width: 100%; height: 20px;"></a>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span><?= date("Y") - date("Y", strtotime("2000-03-06")); ?></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62895-6230-28500</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tangerang Selatan, Banten</span></li>
-                </ul>
-              </div>
-            </div>
-            <p>
-            <p>Saya memiliki pengalaman magang sebagai Web Developer di CV. Mediatama Web Indonesia, dengan job desk melakukan perbaikan bugs pada aplikasi, menambahkan fitur pada website, serta membuat website Nagari Supayang. saya dapat menggunakan PHP Native dan Framework Laravel.</p>
-            <p>Saya pernah mengikuti Pelatihan Junior Web Developer DTS 2019 dan 2021, dari pelatihan tersebut saya mempunyai sertifikat dari Bnsp dan sertifikat dari Kominfo sebagai Junior Web Developer.</p>
-            <p>Saya adalah seorang yang gigih, mau belajar hal baru, dapat bekerja tim, memiliki keingin tahuan yang tinggi, serta menyukai tantangan baru.</p>
-          </div>
+        <div class="d-flex justify-content-center">
+          <img src="https://www.cdnlogo.com/logos/h/90/html-5.svg" style="border:0; height: 80px;" class="me-5">
+          <img src="https://www.cdnlogo.com/logos/p/79/php.svg" style="border:0; height: 80px;" class="me-5">
+          <img src="https://www.cdnlogo.com/logos/m/10/mysql.svg" style="border:0; height: 80px;" class="me-5">
+          <img src='https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg' style="border:0; height: 60px;" class="me-5">
+          <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" style="border:0; height: 70px;" class="me-5">
         </div>
-
       </div>
     </section>
     <!-- End Skills Section -->
@@ -164,13 +153,6 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Latifah Afra</h4>
-              <p><em>Saya Fresh Graduate Politeknik Negeri Padang, berbeksl ilmu dari pendidikan D3 Teknik Komputer saya akan berusaha ikut memajukan perusahan bapak/ibu pimpin. </em></p>
-              <ul>
-                <li>Jl. Madang No. 11 Lolong Belanti, Padang Utara, Padang, Sumatera Barat</li>
-                <li>085264440829</li>
-                <li>afralatifah@gmail.com</li>
-              </ul>
             </div>
 
             <h3 class="resume-title">Education</h3>
@@ -352,27 +334,27 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
-   
+
 
     <!-- ======= Testimonials Section ======= -->
-    
+
     <!-- ======= Contact Section ======= -->
     <section id="services" class="contact">
       <div class="container">
 
         <div class="section-title">
           <h2>Contact</h2>
-         
+
         </div>
 
         <div class="row" data-aos="fade-in">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-12 d-flex align-items-stretch">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>JL. Madang no.11 Lolong Belanti, Padang Utara</p>
+                <p>JL. Astek No.26 RT.04/RW.01, Serpong, Kota Tangerang Selatan</p>
               </div>
 
               <div class="email">
@@ -384,42 +366,13 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+62852-6444-0829</p>
+                <p>+62895-6230-28500</p>
               </div>
 
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2044.4763525056871!2d106.6690526685664!3d-6.294355245929552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb260b53f53f%3A0x5bf01e6e8c6517b4!2sPM4C%2BX75%2C%20Jl.%20Aster%2FLengkong%20Bar.%2C%20Lengkong%20Gudang%2C%20Kec.%20Serpong%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015310!5e1!3m2!1sid!2sid!4v1718696906440!5m2!1sid!2sid" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
           </div>
 
         </div>
