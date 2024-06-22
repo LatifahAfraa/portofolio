@@ -151,18 +151,14 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-            </div>
-
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Politeknik Negeri Padang &amp; D3 Teknik Komputer</h4>
+              <h4>Politeknik Negeri Padang <br> D3 Teknik Komputer</h4>
               <h5>2019 - 2022</h5>
               <p><em>Jl. Kampus, Limau Manis, Kec. Pauh, Kota Padang, Sumatera Barat 25164</em></p>
             </div>
             <div class="resume-item">
-              <h4>SMK Negeri 5 Padang &amp; Teknik Komputer Jaringan</h4>
+              <h4>SMK Negeri 5 Padang <br> Teknik Komputer Jaringan</h4>
               <h5>2015 - 2018</h5>
               <p><em>Jl. Beringin Raya No.4, Lolong Belanti, Kec. Padang Utara, Kota Padang, Sumatera Barat</em></p>
             </div>
