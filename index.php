@@ -138,6 +138,11 @@
           <img src='https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg' style="border:0; height: 60px;" class="me-5">
           <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" style="border:0; height: 70px;" class="me-5">
         </div>
+        <div class="d-flex justify-content-center mt-4">
+        <img src="https://www.cdnlogo.com/logos/b/50/bootstrap.svg" style="border:0; height: 70px;" class="me-5">
+          <img src="https://www.cdnlogo.com/logos/j/44/javascript.svg" style="border:0; height: 70px;" class="me-5">
+          <img src="https://www.cdnlogo.com/logos/j/45/jquery.svg" style="border:0; height: 50px;" class="me-5">
+        </div>
       </div>
     </section>
     <!-- End Skills Section -->
@@ -150,8 +155,51 @@
           <h2>Resume</h2>
 
         <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title"><u>Experience</u></h3>
+            <div class="resume-item">
+              <h4>PT. Kredit Mandiri Indonesia </h4>
+              <h5>IT Support</h5>
+              <p><em>juni 2023 - Sekarang</em></p>
+              <ul>
+                <li>L1 Support</li>
+                <li>Menanggapi pertanyaan user/pengguna</li>
+                <li>Mencari bugs system dan memforward hasil temuan ke pic development</li>
+                <li>Melakukan UAT pada Aplikasi</li>
+                <li>Membuat user guide aplikasi</li>
+                <li>Melakukan backup database</li>
+                <li>Melakukan restore database</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>PT. Suku Maya Teknologi</h4>
+              <h5>Web Developer</h5>
+              <p><em>Maret 2022 - Maret 2023</em></p>
+              <ul>
+                <li>Melakukan pengembangan website JEJE Water</li>
+                <li>Melakukan pengembangan aplikasi Koperasi Koppaska</li>
+                <li>Melakukan pengembangan aplikasi marketplace Daun App</li>
+                <li>Melakukan deploy aplikasi pada cPanel</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>website Developer</h4>
+              <h5>CV. MEDIATAMA WEB INDONESIA</h5>
+              <p><em>Agustus 2021 - Februari 2022</em></p>
+              <ul>
+                <li>Melakukan pengecekan bug pada kodingan</li>
+                <li>Melakukan perancangan Database yang diperlukan dalam pembuatan projek</li>
+                <li>Melakukan pembuatan backend website Nagari Supayang</li>
+                <li>Ikut dalam pembuatan frontend Nagari Supayang</li>
+                <li>Membuat website profile SMK Negeri 5 Padang</li>
+              </ul>
+            </div>
+          </div>
+
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title"><u>Education</u></h3>
             <div class="resume-item">
               <h4>Politeknik Negeri Padang <br> D3 Teknik Komputer</h4>
               <h5>2019 - 2022</h5>
@@ -162,61 +210,21 @@
               <h5>2015 - 2018</h5>
               <p><em>Jl. Beringin Raya No.4, Lolong Belanti, Kec. Padang Utara, Kota Padang, Sumatera Barat</em></p>
             </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Experience</h3>
-            <div class="resume-item">
-              <h4>Kasir Magang </h4>
-              <h5>PT Trans Retail Indonesia</h5>
-              <p><em>Kasir magang selama 3 bulan</em></p>
-              <ul>
-                <li>Melakukan proses transaksi pada mesin kasir di Transmart Padang.</li>
-                <li>Melakukan Proses penghitungan uang masuk.</li>
-              </ul>
-            </div>
 
+          <div class="col-lg-6" data-aos="fade-up">
+          <h3 class="resume-title"><u>Certifications</u></h3>
             <div class="resume-item">
-              <h4>Fotografer Freelance</h4>
-              <h5>WENDYS FOTO</h5>
-              <p><em>Fotografer Freelance di Wendys foto di Transmart selama bulan puasa.</em></p>
-              <ul>
-                <li>Mencari konsumen untuk foto</li>
-                <li>Pengambilan foto konsumen</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>website Developer</h4>
-              <h5>CV. MEDIATAMA WEB INDONESIA</h5>
-              <p><em>Magang selama lebih kurang 5 bulan</em></p>
-              <ul>
-                <li>Melakukan pengecekan bug pada kodingan</li>
-                <li>Melakukan perancangan Database yang diperlukan dalam pembuatan projek</li>
-                <li>Melakukan pembuatan backend website Nagari Supayang</li>
-                <li>Ikut dalam pembuatan frontend Nagari Supayang</li>
-                <li>Membuat website profile SMK Negeri 5 Padang</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>JUNIOR WEB Developer</h4>
-              <h5>Digital Talent Scholarship 2019</h5>
-              <p><em>Pelatihan Setifikasi Junior Web Developer</em></p>
-              <ul>
-                <li>Mendapatkan sertifikat Junior Web Developer Kominfo</li>
-              </ul>
-            </div>
-
-            <div class="resume-item">
-              <h4>JUNIOR WEB Developer</h4>
+              <h6><b>JUNIOR WEB Developer</b></h6>
               <h5>Digital Talent Scholarship 2021</h5>
-              <p><em>Pelatihan Setifikasi Junior Web Developer</em></p>
-              <ul>
-                <li>Mendapatkan sertifikat Junior Web Developer BNSP</li>
-              </ul>
+              <p><em>Mengikuti pelatihan sertifikasi Junior Web Developer BNSP</em></p>
             </div>
-
+          <div class="resume-item">
+              <h6><b>JUNIOR WEB Developer</b></h6>
+              <h5>Digital Talent Scholarship 2019</h5>
+              <p><em>Mengikuti pelatihan sertifikasi Junior Web Developer Kominfo</em></p>
           </div>
+  </div>
+            
         </div>
 
       </div>
